@@ -1,0 +1,32 @@
+.container2{
+    background-color: rgba(84, 139, 139, 0.452);
+    border-radius: 20px;
+}
+.container2 h1{
+    color: rgb(66, 42, 224);
+    padding: 10px;
+    text-align: center;
+    transform: rotate(-3deg);
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px;
+}
+.container2 p{
+    color: #0c4998;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.container2 ol{
+    text-align: center;
+    list-style: none;
+    color: blueviolet;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    font-size: 20px;
+}

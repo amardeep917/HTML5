@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(165, 176, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gallery{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* media query */
+@media (max-width:1200px){
+
+}
