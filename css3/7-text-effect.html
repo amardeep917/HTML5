@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Effect</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: aliceblue;
+            border: 2px solid #3e5677;
+        }
+        .container{
+            border: 2px solid red;
+            max-width: 768px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: antiquewhite;
+            border-radius: 8px;
+            box-shadow: 0 9px 8px 8px #999;
+
+        }
+        h1{
+            font-size: 36px;
+            color: #333;
+            text-align: center;
+            text-decoration: underline;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            text-shadow: -11px -9px 3px #336;
+        }
+        .text{
+            font-size: 20px;
+            letter-spacing: 2px;
+            color: #666;
+            text-align: center;
+            line-height: 1.5;
+            transform: rotate(-3deg) ;
+            transition:  0.3s ease;
+        }
+        .text:hover{
+            transform: rotate(0deg) ;
+            transition:  0.3s ease;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Text Effect</h1>
+
+        <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, quam! Totam sapiente, facere repellat eligendi ab provident itaque atque dignissimos.</p>
+    </div>
+</body>
+</html>

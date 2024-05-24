@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    width: 900px;
+    border: 1px solid black;
+    margin:  20px auto
+}
+.item{
+    border: 1px solid rgb(0, 255, 30);
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+}
+#fruit{
+    float: left;
+    width: 30%;
+}
+#computer{
+    float: left;
+    width: 30%;
+}
+#mobile{
+    /* float: left; */
+    width: 30%;
+    clear: both;
+}
+p, h3{
+    text-align: center;
+    text-align: justify;
+    text-shadow: 5px 5px 10px rgb(209, 13, 13);
+    
+}
+img{
+    height: 230px;
+    width: 250px;
+}

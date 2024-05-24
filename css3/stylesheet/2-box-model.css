@@ -1,0 +1,11 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    color: #c80707;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    margin: 0 35%;
+    border: 2px solid black;
+    box-sizing: border-box;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .container{
+            display: flex;
+            /* margin: 10px; */
+            margin: auto;
+            border: 2px solid red;
+            width: 900px;
+            
+        }
+        .container-box{
+            border: 1px solid black;
+            border-radius: 10px;
+            margin: 5px;
+            width: 440px;
+            box-sizing: border-box;
+            padding: 5px 20px;
+            line-height: 1rem;
+            background-color: aqua;
+            }
+        .container-box h1{
+           color: brown;
+        }
+        /* for button styling */
+        .btn{
+            color: black;
+            background-color: rgb(197, 113, 114);
+            padding: 6px;
+            margin: 6px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 13px;
+            border-radius: 5px;
+        }
+        
+        /* for hovor */
+        .btn:hover{
+            background-color: rgb(133, 153, 195);
+            border: 2px solid red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-box">
+            <h1>Hello</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, odit neque atque cumque optio blanditiis maxime libero beatae autem dolor?</p>
+            <a href="" class="btn">Read more</a>
+            <button class="btn">Contact us</button>
+        </div>
+        <div class="container-box">
+            <h1>Hello</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, odit neque atque cumque optio blanditiis maxime libero beatae autem dolor?</p>
+        </div>
+    </div>
+</body>
+</html>

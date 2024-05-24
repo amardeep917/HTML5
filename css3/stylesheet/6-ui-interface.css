@@ -1,0 +1,94 @@
+.primary-button, .secondary-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.primary-button{
+    background-color: #007bff;
+    color: #fff;
+}
+.secondary-button{
+    background-color: #6c757d;
+    color: #000;
+}
+
+.user-form{
+    max-width: 300px;
+    margin-left: 40%;
+    border: 2px solid black;
+    /* margin: 20px; */
+    padding: 10px;
+}
+.user-form label{
+    display:block;
+    margin : 5px 0;
+}
+.user-form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.user-form input[type="email"]{
+    background-color: #6c757d;
+}
+
+.user-form button{
+    width: 100%;
+}
+
+/* button style */
+#btn1{
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    color: #fff;
+    background-color: #04aa6d;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#btn1:hover{
+    background-color: #3e8e41;
+}
+
+#btn1:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#btn2{
+    display: block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    color: #fff;
+    background-color: #f4511e;
+    border-radius: 15px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+#btn2:hover{
+    opacity: 1;
+}
+
+#btn3{
+    padding: 15px 25px;
+    font-size: 24px;
+    opacity: 0.6;
+    cursor: not-allowed;
+    background-color: #6c757d;
+    display: block;
+    margin: 20px;
+}
