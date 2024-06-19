@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form with custom style</title>
+    <link rel="stylesheet" href="contact-formWithCustomStyle.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <h2>Contact Us</h2>
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required pattern="[A-Za-z]">
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required >
+            </div>
+
+            <div class="form-control">
+                <label for="sub">Subject</label>
+                <input type="text" name="sub" id="sub" required minlength="5" maxlength="50">
+            </div>
+
+            <div class="form-control">
+                <label for="msg">Message</label>
+                <textarea name="msg" id="msg" required minlength="10" maxlength="500"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
